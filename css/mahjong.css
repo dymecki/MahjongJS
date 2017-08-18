@@ -1,65 +1,71 @@
 body {
-	margin: 0;
-	padding: 0;}
-	
+    margin:  0;
+    padding: 0;
+}
+
 body * {
-	margin: 0;
-	padding: 0;}
-	
+    margin:  0;
+    padding: 0;
+}
+
 #game {
-	width: 1300px;
-	height: 650px;
-	background: beige;}
-	
+    width:      1300px;
+    height:     650px;
+    background: beige;
+}
+
 .brick {
-	position: absolute;
-	cursor: pointer;
-	background: url('img/icons64/1.png') no-repeat center;
-	wdth: 40px;
-	height: 64px;}
-	
+    position:   absolute;
+    cursor:     pointer;
+    background: url('img/icons64/1.png') no-repeat center;
+    wdth:       40px;
+    height:     64px;
+}
+
 .shadow {
-	-webkit-box-shadow: 0 10px 8px -4px #000;}
-	
+	-webkit-box-shadow: 0 10px 8px -4px #000;
+}
+
 .active,
 .brick:hover {
-	-webkit-filter: sepia(100%);}
+	-webkit-filter: sepia(100%);
+}
 
 .type1 {background-image: url(../img/icons64/1.png);}
 .type2 {background-image: url(../img/icons64/2.png);}
 .type3 {background-image: url(../img/icons64/3.png);}
-.type4 {background-image: url(../img/icons64/4.png);} 
-.type5 {background-image: url(../img/icons64/5.png);} 
-.type6 {background-image: url(../img/icons64/6.png);} 
+.type4 {background-image: url(../img/icons64/4.png);}
+.type5 {background-image: url(../img/icons64/5.png);}
+.type6 {background-image: url(../img/icons64/6.png);}
 .type7 {background-image: url(../img/icons64/7.png);}
-.type8 {background-image: url(../img/icons64/8.png);} 
-.type9 {background-image: url(../img/icons64/9.png);} 
-.type10 {background-image: url(../img/icons64/10.png);} 
-.type11 {background-image: url(../img/icons64/11.png);} 
-.type12 {background-image: url(../img/icons64/12.png);} 
-.type13 {background-image: url(../img/icons64/13.png);} 
-.type14 {background-image: url(../img/icons64/14.png);} 
-.type15 {background-image: url(../img/icons64/15.png);} 
-.type16 {background-image: url(../img/icons64/16.png);} 
-.type17 {background-image: url(../img/icons64/17.png);} 
-.type18 {background-image: url(../img/icons64/18.png);} 
-.type19 {background-image: url(../img/icons64/19.png);} 
-.type20 {background-image: url(../img/icons64/20.png);} 
-.type21 {background-image: url(../img/icons64/21.png);} 
-.type22 {background-image: url(../img/icons64/22.png);} 
-.type23 {background-image: url(../img/icons64/23.png);} 
-.type24 {background-image: url(../img/icons64/24.png);} 
-.type25 {background-image: url(../img/icons64/25.png);} 
-.type26 {background-image: url(../img/icons64/26.png);} 
-.type27 {background-image: url(../img/icons64/27.png);} 
-.type28 {background-image: url(../img/icons64/28.png);} 
-.type29 {background-image: url(../img/icons64/29.png);} 
-.type30 {background-image: url(../img/icons64/30.png);} 
-.type31 {background-image: url(../img/icons64/31.png);} 
-.type32 {background-image: url(../img/icons64/32.png);} 
-.type33 {background-image: url(../img/icons64/33.png);} 
-.type34 {background-image: url(../img/icons64/34.png);} 
-.type35 {background-image: url(../img/icons64/35.png);} 
-.type36 {background-image: url(../img/icons64/36.png);} 
+.type8 {background-image: url(../img/icons64/8.png);}
+.type9 {background-image: url(../img/icons64/9.png);}
+.type10 {background-image: url(../img/icons64/10.png);}
+.type11 {background-image: url(../img/icons64/11.png);}
+.type12 {background-image: url(../img/icons64/12.png);}
+.type13 {background-image: url(../img/icons64/13.png);}
+.type14 {background-image: url(../img/icons64/14.png);}
+.type15 {background-image: url(../img/icons64/15.png);}
+.type16 {background-image: url(../img/icons64/16.png);}
+.type17 {background-image: url(../img/icons64/17.png);}
+.type18 {background-image: url(../img/icons64/18.png);}
+.type19 {background-image: url(../img/icons64/19.png);}
+.type20 {background-image: url(../img/icons64/20.png);}
+.type21 {background-image: url(../img/icons64/21.png);}
+.type22 {background-image: url(../img/icons64/22.png);}
+.type23 {background-image: url(../img/icons64/23.png);}
+.type24 {background-image: url(../img/icons64/24.png);}
+.type25 {background-image: url(../img/icons64/25.png);}
+.type26 {background-image: url(../img/icons64/26.png);}
+.type27 {background-image: url(../img/icons64/27.png);}
+.type28 {background-image: url(../img/icons64/28.png);}
+.type29 {background-image: url(../img/icons64/29.png);}
+.type30 {background-image: url(../img/icons64/30.png);}
+.type31 {background-image: url(../img/icons64/31.png);}
+.type32 {background-image: url(../img/icons64/32.png);}
+.type33 {background-image: url(../img/icons64/33.png);}
+.type34 {background-image: url(../img/icons64/34.png);}
+.type35 {background-image: url(../img/icons64/35.png);}
+.type36 {background-image: url(../img/icons64/36.png);}
 .type37 {background-image: url(../img/icons64/37.png);}
 
